@@ -1,10 +1,10 @@
 module nille(
-	x
+	clk
 );
-input x;
+input clk;
 
 initial begin
-	$display("nille");
+	$display("Initializing nille");
 end
 
 endmodule
