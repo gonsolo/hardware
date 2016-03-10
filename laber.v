@@ -4,6 +4,7 @@ initial begin
 	$display("laber laber");
 end
 
-hurz hurz_instance();
+hurz hurz1();
+
 endmodule
 
