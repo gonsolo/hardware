@@ -6,8 +6,3 @@ void testGonzo(Interface& interface) {
 	hardGonzo.build(interface);
 }
 
-//void testGonzo(int i, int* j) {
-//	Gonzo gonzo;
-//	gonzo.build(i, j);
-//}
-

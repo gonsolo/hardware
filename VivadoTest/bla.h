@@ -4,6 +4,4 @@
 
 void testGonzo(Interface & interface);
 
-//void testGonzo(int i, int* j);
-
 
