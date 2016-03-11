@@ -3,13 +3,7 @@
   <errorLogs>
     <logs>
       <synLog/>
-      <simLog>
-        <logs message="@E [SIM-4] *** C/RTL co-simulation finished: FAIL ***&#xD;&#xA;command 'ap_source' returned error code&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/gonso/work/hardware/VivadoTest/gonzosolution/cosim.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/gonso/work/hardware/VivadoTest/gonzosolution/cosim.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="VivadoTest" solutionName="gonzosolution" date="2016-03-11T03:07:53.239+0100"/>
-        <logs message="@E [SIM-331] Aborting co-simulation: C simulation failed, compilation errors." projectName="VivadoTest" solutionName="gonzosolution" date="2016-03-11T03:07:52.972+0100"/>
-        <logs message="@E [SIM-321] EXE file generate failed." projectName="VivadoTest" solutionName="gonzosolution" date="2016-03-11T03:07:52.952+0100"/>
-        <logs message="@E [SIM-321] EXE file generate failed." projectName="VivadoTest" solutionName="gonzosolution" date="2016-03-11T03:07:52.937+0100"/>
-        <logs message="@E [SIM-317] C++ compile error." projectName="VivadoTest" solutionName="gonzosolution" date="2016-03-11T03:07:52.924+0100"/>
-      </simLog>
+      <simLog/>
       <mgLog/>
       <packageLog/>
       <csimLog/>

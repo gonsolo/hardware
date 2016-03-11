@@ -1,4 +1,5 @@
 #include "bla.h"
+#include "Gonzo.h"
 
 //void testGonzo(Interface& interface) {
 //	Gonzo gonzo;
@@ -10,9 +11,6 @@ void testGonzo(int i, int* j) {
 	gonzo.build(i, j);
 }
 
-void Gonzo::build(int i, int* j) {
-	*j = 2 * i;
-}
 //void Gonzo::build(Interface& interface) {
 
 //	for(int i = 0; i < count; ++i) {

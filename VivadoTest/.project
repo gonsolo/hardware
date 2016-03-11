@@ -37,19 +37,34 @@
 			<location>C:/Users/gonso/work/hardware/VivadoTest/.apc/.tb</location>
 		</link>
 		<link>
-			<name>.reference/bla.h</name>
-			<type>1</type>
-			<location>C:/Users/gonso/work/hardware/VivadoTest/bla.h</location>
-		</link>
-		<link>
 			<name>gonzosolution/constraints</name>
 			<type>2</type>
 			<location>C:/Users/gonso/work/hardware/VivadoTest/gonzosolution/.tcls</location>
 		</link>
 		<link>
+			<name>source/Gonzo.cpp</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/Gonzo.cpp</location>
+		</link>
+		<link>
+			<name>source/Gonzo.h</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/Gonzo.h</location>
+		</link>
+		<link>
 			<name>source/bla.cpp</name>
 			<type>1</type>
 			<location>C:/Users/gonso/work/hardware/VivadoTest/bla.cpp</location>
+		</link>
+		<link>
+			<name>testbench/Gonzo.cpp</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/Gonzo.cpp</location>
+		</link>
+		<link>
+			<name>testbench/Gonzo.h</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/Gonzo.h</location>
 		</link>
 		<link>
 			<name>testbench/testbench.cpp</name>

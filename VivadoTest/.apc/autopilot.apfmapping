@@ -2,8 +2,12 @@
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
     <originFiles name="bla.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\bla.cpp"/>
+    <originFiles name="Gonzo.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\Gonzo.cpp"/>
+    <originFiles name="Gonzo.h" path="C:\Users\gonso\work\hardware\VivadoTest\Gonzo.h"/>
   </source>
   <testbench>
     <originFiles name="testbench.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\testbench.cpp"/>
+    <originFiles name="Gonzo.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\Gonzo.cpp"/>
+    <originFiles name="Gonzo.h" path="C:\Users\gonso\work\hardware\VivadoTest\Gonzo.h"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>
