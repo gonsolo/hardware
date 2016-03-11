@@ -46,13 +46,13 @@
               <name>input_M_instance</name>
               <fileName>VivadoTest/bla.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>4</lineNumber>
+              <lineNumber>3</lineNumber>
               <contextFuncName>gonzomain</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="8" tracking_level="0" version="0">
-                  <first>c:/Users/gonso/work</first>
+                  <first>c:/Users/gonso/work/hardware</first>
                   <second class_id="9" tracking_level="0" version="0">
                     <count>1</count>
                     <item_version>0</item_version>
@@ -61,7 +61,7 @@
                         <first>VivadoTest/bla.cpp</first>
                         <second>gonzomain</second>
                       </first>
-                      <second>4</second>
+                      <second>3</second>
                     </item>
                   </second>
                 </item>
@@ -92,13 +92,13 @@
               <name/>
               <fileName>VivadoTest/bla.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>6</lineNumber>
+              <lineNumber>5</lineNumber>
               <contextFuncName>gonzomain</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>c:/Users/gonso/work</first>
+                  <first>c:/Users/gonso/work/hardware</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -107,7 +107,7 @@
                         <first>VivadoTest/bla.cpp</first>
                         <second>gonzomain</second>
                       </first>
-                      <second>6</second>
+                      <second>5</second>
                     </item>
                   </second>
                 </item>
@@ -163,13 +163,13 @@
               <name>exitcond</name>
               <fileName>VivadoTest/bla.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>6</lineNumber>
+              <lineNumber>5</lineNumber>
               <contextFuncName>gonzomain</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>c:/Users/gonso/work</first>
+                  <first>c:/Users/gonso/work/hardware</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -178,7 +178,7 @@
                         <first>VivadoTest/bla.cpp</first>
                         <second>gonzomain</second>
                       </first>
-                      <second>6</second>
+                      <second>5</second>
                     </item>
                   </second>
                 </item>
@@ -205,13 +205,13 @@
               <name>i_1</name>
               <fileName>VivadoTest/bla.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>6</lineNumber>
+              <lineNumber>5</lineNumber>
               <contextFuncName>gonzomain</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>c:/Users/gonso/work</first>
+                  <first>c:/Users/gonso/work/hardware</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -220,7 +220,7 @@
                         <first>VivadoTest/bla.cpp</first>
                         <second>gonzomain</second>
                       </first>
-                      <second>6</second>
+                      <second>5</second>
                     </item>
                   </second>
                 </item>
@@ -247,13 +247,13 @@
               <name/>
               <fileName>VivadoTest/bla.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>6</lineNumber>
+              <lineNumber>5</lineNumber>
               <contextFuncName>gonzomain</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>c:/Users/gonso/work</first>
+                  <first>c:/Users/gonso/work/hardware</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -262,7 +262,7 @@
                         <first>VivadoTest/bla.cpp</first>
                         <second>gonzomain</second>
                       </first>
-                      <second>6</second>
+                      <second>5</second>
                     </item>
                   </second>
                 </item>
@@ -290,13 +290,13 @@
               <name>p_n_assign</name>
               <fileName>VivadoTest/bla.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>7</lineNumber>
+              <lineNumber>6</lineNumber>
               <contextFuncName>gonzomain</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>c:/Users/gonso/work</first>
+                  <first>c:/Users/gonso/work/hardware</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -305,7 +305,7 @@
                         <first>VivadoTest/bla.cpp</first>
                         <second>gonzomain</second>
                       </first>
-                      <second>7</second>
+                      <second>6</second>
                     </item>
                   </second>
                 </item>
@@ -337,7 +337,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>c:/Users/gonso/work</first>
+                  <first>c:/Users/gonso/work/hardware</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -353,7 +353,7 @@
                         <first>VivadoTest/bla.cpp</first>
                         <second>gonzomain</second>
                       </first>
-                      <second>7</second>
+                      <second>6</second>
                     </item>
                   </second>
                 </item>
@@ -381,13 +381,13 @@
               <name>input_M_instance_load</name>
               <fileName>VivadoTest/bla.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>7</lineNumber>
+              <lineNumber>6</lineNumber>
               <contextFuncName>gonzomain</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>c:/Users/gonso/work</first>
+                  <first>c:/Users/gonso/work/hardware</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -396,7 +396,7 @@
                         <first>VivadoTest/bla.cpp</first>
                         <second>gonzomain</second>
                       </first>
-                      <second>7</second>
+                      <second>6</second>
                     </item>
                   </second>
                 </item>
@@ -422,13 +422,13 @@
               <name>tmp</name>
               <fileName>VivadoTest/bla.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>7</lineNumber>
+              <lineNumber>6</lineNumber>
               <contextFuncName>gonzomain</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>c:/Users/gonso/work</first>
+                  <first>c:/Users/gonso/work/hardware</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -437,7 +437,7 @@
                         <first>VivadoTest/bla.cpp</first>
                         <second>gonzomain</second>
                       </first>
-                      <second>7</second>
+                      <second>6</second>
                     </item>
                   </second>
                 </item>
@@ -470,7 +470,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>c:/Users/gonso/work</first>
+                  <first>c:/Users/gonso/work/hardware</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
@@ -486,7 +486,7 @@
                         <first>VivadoTest/bla.cpp</first>
                         <second>gonzomain</second>
                       </first>
-                      <second>7</second>
+                      <second>6</second>
                     </item>
                   </second>
                 </item>
@@ -514,13 +514,13 @@
               <name/>
               <fileName>VivadoTest/bla.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>7</lineNumber>
+              <lineNumber>6</lineNumber>
               <contextFuncName>gonzomain</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>c:/Users/gonso/work</first>
+                  <first>c:/Users/gonso/work/hardware</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -529,7 +529,7 @@
                         <first>VivadoTest/bla.cpp</first>
                         <second>gonzomain</second>
                       </first>
-                      <second>7</second>
+                      <second>6</second>
                     </item>
                   </second>
                 </item>
@@ -556,13 +556,13 @@
               <name/>
               <fileName>VivadoTest/bla.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>6</lineNumber>
+              <lineNumber>5</lineNumber>
               <contextFuncName>gonzomain</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>c:/Users/gonso/work</first>
+                  <first>c:/Users/gonso/work/hardware</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -571,7 +571,7 @@
                         <first>VivadoTest/bla.cpp</first>
                         <second>gonzomain</second>
                       </first>
-                      <second>6</second>
+                      <second>5</second>
                     </item>
                   </second>
                 </item>
@@ -597,13 +597,13 @@
               <name/>
               <fileName>VivadoTest/bla.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>9</lineNumber>
+              <lineNumber>8</lineNumber>
               <contextFuncName>gonzomain</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>c:/Users/gonso/work</first>
+                  <first>c:/Users/gonso/work/hardware</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -612,7 +612,7 @@
                         <first>VivadoTest/bla.cpp</first>
                         <second>gonzomain</second>
                       </first>
-                      <second>9</second>
+                      <second>8</second>
                     </item>
                   </second>
                 </item>

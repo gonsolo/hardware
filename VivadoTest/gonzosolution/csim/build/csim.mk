@@ -73,7 +73,7 @@ all: $(TARGET)
 
 $(ObjDir)/testbench.o: ../../../testbench.cpp $(ObjDir)/.dir
 	$(Echo) "   Compiling ../../../testbench.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
-	$(Verb)  $(CC) -c -MMD  -std=c++0x $(IFLAG) $(DFLAG)  $< -o $@ ; \
+	$(Verb)  $(CC) -c -MMD   -std=c++0x $(IFLAG) $(DFLAG)  $< -o $@ ; \
 
 -include $(ObjDir)/testbench.d
 

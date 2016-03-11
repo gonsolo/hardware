@@ -45,14 +45,14 @@
 						<id>2</id>
 						<name>input_M_instance</name>
 						<fileName>VivadoTest/bla.cpp</fileName>
-						<fileDirectory>c:/Users/gonso/work</fileDirectory>
-						<lineNumber>4</lineNumber>
+						<fileDirectory>c:/Users/gonso/work/hardware</fileDirectory>
+						<lineNumber>3</lineNumber>
 						<contextFuncName>gonzomain</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="8" tracking_level="0" version="0">
-								<first>c:/Users/gonso/work</first>
+								<first>c:/Users/gonso/work/hardware</first>
 								<second class_id="9" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -61,7 +61,7 @@
 											<first>VivadoTest/bla.cpp</first>
 											<second>gonzomain</second>
 										</first>
-										<second>4</second>
+										<second>3</second>
 									</item>
 								</second>
 							</item>
@@ -91,14 +91,14 @@
 						<id>6</id>
 						<name></name>
 						<fileName>VivadoTest/bla.cpp</fileName>
-						<fileDirectory>c:/Users/gonso/work</fileDirectory>
-						<lineNumber>6</lineNumber>
+						<fileDirectory>c:/Users/gonso/work/hardware</fileDirectory>
+						<lineNumber>5</lineNumber>
 						<contextFuncName>gonzomain</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>c:/Users/gonso/work</first>
+								<first>c:/Users/gonso/work/hardware</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -107,7 +107,7 @@
 											<first>VivadoTest/bla.cpp</first>
 											<second>gonzomain</second>
 										</first>
-										<second>6</second>
+										<second>5</second>
 									</item>
 								</second>
 							</item>
@@ -162,14 +162,14 @@
 						<id>9</id>
 						<name>exitcond</name>
 						<fileName>VivadoTest/bla.cpp</fileName>
-						<fileDirectory>c:/Users/gonso/work</fileDirectory>
-						<lineNumber>6</lineNumber>
+						<fileDirectory>c:/Users/gonso/work/hardware</fileDirectory>
+						<lineNumber>5</lineNumber>
 						<contextFuncName>gonzomain</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>c:/Users/gonso/work</first>
+								<first>c:/Users/gonso/work/hardware</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -178,7 +178,7 @@
 											<first>VivadoTest/bla.cpp</first>
 											<second>gonzomain</second>
 										</first>
-										<second>6</second>
+										<second>5</second>
 									</item>
 								</second>
 							</item>
@@ -204,14 +204,14 @@
 						<id>11</id>
 						<name>i_1</name>
 						<fileName>VivadoTest/bla.cpp</fileName>
-						<fileDirectory>c:/Users/gonso/work</fileDirectory>
-						<lineNumber>6</lineNumber>
+						<fileDirectory>c:/Users/gonso/work/hardware</fileDirectory>
+						<lineNumber>5</lineNumber>
 						<contextFuncName>gonzomain</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>c:/Users/gonso/work</first>
+								<first>c:/Users/gonso/work/hardware</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -220,7 +220,7 @@
 											<first>VivadoTest/bla.cpp</first>
 											<second>gonzomain</second>
 										</first>
-										<second>6</second>
+										<second>5</second>
 									</item>
 								</second>
 							</item>
@@ -246,14 +246,14 @@
 						<id>12</id>
 						<name></name>
 						<fileName>VivadoTest/bla.cpp</fileName>
-						<fileDirectory>c:/Users/gonso/work</fileDirectory>
-						<lineNumber>6</lineNumber>
+						<fileDirectory>c:/Users/gonso/work/hardware</fileDirectory>
+						<lineNumber>5</lineNumber>
 						<contextFuncName>gonzomain</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>c:/Users/gonso/work</first>
+								<first>c:/Users/gonso/work/hardware</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -262,7 +262,7 @@
 											<first>VivadoTest/bla.cpp</first>
 											<second>gonzomain</second>
 										</first>
-										<second>6</second>
+										<second>5</second>
 									</item>
 								</second>
 							</item>
@@ -289,14 +289,14 @@
 						<id>14</id>
 						<name>p_n_assign</name>
 						<fileName>VivadoTest/bla.cpp</fileName>
-						<fileDirectory>c:/Users/gonso/work</fileDirectory>
-						<lineNumber>7</lineNumber>
+						<fileDirectory>c:/Users/gonso/work/hardware</fileDirectory>
+						<lineNumber>6</lineNumber>
 						<contextFuncName>gonzomain</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>c:/Users/gonso/work</first>
+								<first>c:/Users/gonso/work/hardware</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -305,7 +305,7 @@
 											<first>VivadoTest/bla.cpp</first>
 											<second>gonzomain</second>
 										</first>
-										<second>7</second>
+										<second>6</second>
 									</item>
 								</second>
 							</item>
@@ -330,14 +330,14 @@
 						<id>15</id>
 						<name>input_M_instance_addr</name>
 						<fileName>C:/Xilinx/Vivado_HLS/2015.4/win64/tools/clang/bin\..\lib\clang\3.1/../../../include/c++/4.5.2\tr1_impl/array</fileName>
-						<fileDirectory>c:/Users/gonso/work</fileDirectory>
+						<fileDirectory>c:/Users/gonso/work/hardware</fileDirectory>
 						<lineNumber>151</lineNumber>
 						<contextFuncName>operator[]</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>c:/Users/gonso/work</first>
+								<first>c:/Users/gonso/work/hardware</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -353,7 +353,7 @@
 											<first>VivadoTest/bla.cpp</first>
 											<second>gonzomain</second>
 										</first>
-										<second>7</second>
+										<second>6</second>
 									</item>
 								</second>
 							</item>
@@ -380,14 +380,14 @@
 						<id>16</id>
 						<name>input_M_instance_load</name>
 						<fileName>VivadoTest/bla.cpp</fileName>
-						<fileDirectory>c:/Users/gonso/work</fileDirectory>
-						<lineNumber>7</lineNumber>
+						<fileDirectory>c:/Users/gonso/work/hardware</fileDirectory>
+						<lineNumber>6</lineNumber>
 						<contextFuncName>gonzomain</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>c:/Users/gonso/work</first>
+								<first>c:/Users/gonso/work/hardware</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -396,7 +396,7 @@
 											<first>VivadoTest/bla.cpp</first>
 											<second>gonzomain</second>
 										</first>
-										<second>7</second>
+										<second>6</second>
 									</item>
 								</second>
 							</item>
@@ -421,14 +421,14 @@
 						<id>17</id>
 						<name>tmp</name>
 						<fileName>VivadoTest/bla.cpp</fileName>
-						<fileDirectory>c:/Users/gonso/work</fileDirectory>
-						<lineNumber>7</lineNumber>
+						<fileDirectory>c:/Users/gonso/work/hardware</fileDirectory>
+						<lineNumber>6</lineNumber>
 						<contextFuncName>gonzomain</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>c:/Users/gonso/work</first>
+								<first>c:/Users/gonso/work/hardware</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -437,7 +437,7 @@
 											<first>VivadoTest/bla.cpp</first>
 											<second>gonzomain</second>
 										</first>
-										<second>7</second>
+										<second>6</second>
 									</item>
 								</second>
 							</item>
@@ -463,14 +463,14 @@
 						<id>18</id>
 						<name>output_M_instance_addr</name>
 						<fileName>C:/Xilinx/Vivado_HLS/2015.4/win64/tools/clang/bin\..\lib\clang\3.1/../../../include/c++/4.5.2\tr1_impl/array</fileName>
-						<fileDirectory>c:/Users/gonso/work</fileDirectory>
+						<fileDirectory>c:/Users/gonso/work/hardware</fileDirectory>
 						<lineNumber>147</lineNumber>
 						<contextFuncName>operator[]</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>c:/Users/gonso/work</first>
+								<first>c:/Users/gonso/work/hardware</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
@@ -486,7 +486,7 @@
 											<first>VivadoTest/bla.cpp</first>
 											<second>gonzomain</second>
 										</first>
-										<second>7</second>
+										<second>6</second>
 									</item>
 								</second>
 							</item>
@@ -513,14 +513,14 @@
 						<id>19</id>
 						<name></name>
 						<fileName>VivadoTest/bla.cpp</fileName>
-						<fileDirectory>c:/Users/gonso/work</fileDirectory>
-						<lineNumber>7</lineNumber>
+						<fileDirectory>c:/Users/gonso/work/hardware</fileDirectory>
+						<lineNumber>6</lineNumber>
 						<contextFuncName>gonzomain</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>c:/Users/gonso/work</first>
+								<first>c:/Users/gonso/work/hardware</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -529,7 +529,7 @@
 											<first>VivadoTest/bla.cpp</first>
 											<second>gonzomain</second>
 										</first>
-										<second>7</second>
+										<second>6</second>
 									</item>
 								</second>
 							</item>
@@ -555,14 +555,14 @@
 						<id>20</id>
 						<name></name>
 						<fileName>VivadoTest/bla.cpp</fileName>
-						<fileDirectory>c:/Users/gonso/work</fileDirectory>
-						<lineNumber>6</lineNumber>
+						<fileDirectory>c:/Users/gonso/work/hardware</fileDirectory>
+						<lineNumber>5</lineNumber>
 						<contextFuncName>gonzomain</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>c:/Users/gonso/work</first>
+								<first>c:/Users/gonso/work/hardware</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -571,7 +571,7 @@
 											<first>VivadoTest/bla.cpp</first>
 											<second>gonzomain</second>
 										</first>
-										<second>6</second>
+										<second>5</second>
 									</item>
 								</second>
 							</item>
@@ -596,14 +596,14 @@
 						<id>22</id>
 						<name></name>
 						<fileName>VivadoTest/bla.cpp</fileName>
-						<fileDirectory>c:/Users/gonso/work</fileDirectory>
-						<lineNumber>9</lineNumber>
+						<fileDirectory>c:/Users/gonso/work/hardware</fileDirectory>
+						<lineNumber>8</lineNumber>
 						<contextFuncName>gonzomain</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>c:/Users/gonso/work</first>
+								<first>c:/Users/gonso/work/hardware</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -612,7 +612,7 @@
 											<first>VivadoTest/bla.cpp</first>
 											<second>gonzomain</second>
 										</first>
-										<second>9</second>
+										<second>8</second>
 									</item>
 								</second>
 							</item>

@@ -203,6 +203,9 @@ extern "C" {
 #pragma line 7 "<command line>" 2
 #pragma line 1 "<built-in>" 2
 #pragma line 1 "VivadoTest/bla.cpp" 2
+#pragma line 1 "VivadoTest/bla.h" 1
+#pragma empty_line
+#pragma empty_line
 #pragma line 1 "C:/Xilinx/Vivado_HLS/2015.4/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\array" 1 3
 // <array> -*- C++ -*-
 #pragma empty_line
@@ -7053,14 +7056,15 @@ namespace std
 #pragma empty_line
 }
 #pragma line 51 "C:/Xilinx/Vivado_HLS/2015.4/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\array" 2 3
-#pragma line 2 "VivadoTest/bla.cpp" 2
-#pragma line 1 "VivadoTest/bla.h" 1
-#pragma empty_line
+#pragma line 4 "VivadoTest/bla.h" 2
 #pragma empty_line
 const int count = 8;
-#pragma line 3 "VivadoTest/bla.cpp" 2
+typedef std::array<int, count> EightInts;
 #pragma empty_line
-void gonzomain(std::array<int, 8>& output, const std::array<int, count> input) {
+void gonzomain(EightInts& output, const EightInts input );
+#pragma line 2 "VivadoTest/bla.cpp" 2
+#pragma empty_line
+void gonzomain(EightInts& output, const EightInts input) {
 #pragma empty_line
  for(int i = 0; i < count; ++i) {
   output[i] = input[i] + 3;

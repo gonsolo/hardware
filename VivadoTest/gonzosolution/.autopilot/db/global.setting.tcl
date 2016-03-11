@@ -43,7 +43,7 @@ set SCTraceOption "all"
 set TargetInfo "xc7z010i:clg225:-1l"
 set SourceFiles {sc {} c ../bla.cpp}
 set SourceFlags {sc {} c -std=c++0x}
-set DirectiveFile {C:/Users/gonso/work/VivadoTest/gonzosolution/gonzosolution.directive}
+set DirectiveFile {C:/Users/gonso/work/hardware/VivadoTest/gonzosolution/gonzosolution.directive}
 set TBFiles {verilog ../testbench.cpp bc ../testbench.cpp vhdl ../testbench.cpp sc ../testbench.cpp cas ../testbench.cpp c {}}
 set SpecLanguage "C"
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}

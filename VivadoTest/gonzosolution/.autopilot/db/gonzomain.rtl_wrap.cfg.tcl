@@ -33,7 +33,7 @@ set structArgument0 [list $DataType0ta0 8 ]
 set SpaceName00 "std"
 set NameSpace0 [list  [list  space $SpaceName00] ]
 set structIsPacked0 "0"
-set DataType0 [list "std::array<int, 8>" "struct array" $structMem0 1 0 $structParameter0 $structArgument0 $NameSpace0 $structIsPacked0]
+set DataType0 [list "std::array<int, 8>" "struct array" $structMem0 0 0 $structParameter0 $structArgument0 $NameSpace0 $structIsPacked0]
 set Port0 [list $PortName0 $Interface0 $DataType0 $Pointer0 $Dims0 $Const0 $Volatile0 $ArrayOpt0]
 lappend PortList $Port0
 set PortName1 "input"
@@ -65,7 +65,7 @@ set structArgument1 [list $DataType1ta0 8 ]
 set SpaceName10 "std"
 set NameSpace1 [list  [list  space $SpaceName10] ]
 set structIsPacked1 "0"
-set DataType1 [list "std::array<int, 8>" "struct array" $structMem1 1 0 $structParameter1 $structArgument1 $NameSpace1 $structIsPacked1]
+set DataType1 [list "std::array<int, 8>" "struct array" $structMem1 0 0 $structParameter1 $structArgument1 $NameSpace1 $structIsPacked1]
 set Port1 [list $PortName1 $Interface1 $DataType1 $Pointer1 $Dims1 $Const1 $Volatile1 $ArrayOpt1]
 lappend PortList $Port1
 set globalAPint "" 

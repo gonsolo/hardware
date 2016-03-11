@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'gonzomain'" level="0">
-<item name = "Date">Fri Mar 11 01:00:43 2016
+<item name = "Date">Fri Mar 11 01:28:03 2016
 </item>
 <item name = "Version">2015.4 (Build 1412921 on Wed Nov 18 09:58:55 AM 2015)</item>
 <item name = "Project">VivadoTest</item>
@@ -125,10 +125,10 @@
 <item name = "Max Delay">2.39</item>
 <item name = "Critical Path Table"><table name="Critical Path Table" hasTotal="0">
 <keys size="15">Name, Operator, Delay, Accumulated Delay, Store Source, Resource, Core, Interface, Type, Port, Array, Scope, Pointer, Callee, Phi Node</keys>
-<column name="'i'">phi, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, &apos;i&apos;, VivadoTest/bla.cpp:6</column>
-<column name="'__n', VivadoTest/bla.cpp:7">zext, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, -</column>
-<column name="'input_M_instance_addr', C:/Xilinx/Vivado_HLS/2015.4/win64/tools/clang/bin\..\lib\clang\3.1/../../../include/c++/4.5.2\tr1_impl/array:151->VivadoTest/bla.cpp:7">getelementptr, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, -</column>
-<column name="'input_M_instance_load', VivadoTest/bla.cpp:7">load, 2.39, 2.39, -, -, -, -, -, -, &apos;input_M_instance&apos;, -, -, -, -</column>
+<column name="'i'">phi, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, &apos;i&apos;, VivadoTest/bla.cpp:5</column>
+<column name="'__n', VivadoTest/bla.cpp:6">zext, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'input_M_instance_addr', C:/Xilinx/Vivado_HLS/2015.4/win64/tools/clang/bin\..\lib\clang\3.1/../../../include/c++/4.5.2\tr1_impl/array:151->VivadoTest/bla.cpp:6">getelementptr, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'input_M_instance_load', VivadoTest/bla.cpp:6">load, 2.39, 2.39, -, -, -, -, -, -, &apos;input_M_instance&apos;, -, -, -, -</column>
 </table>
 </item>
 </section>

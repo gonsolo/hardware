@@ -1,5 +1,5 @@
-# 1 "C:/Users/gonso/work/VivadoTest/gonzosolution/.autopilot/db/bla.pragma.1.cpp"
-# 1 "C:/Users/gonso/work/VivadoTest/gonzosolution/.autopilot/db/bla.pragma.1.cpp" 1
+# 1 "C:/Users/gonso/work/hardware/VivadoTest/gonzosolution/.autopilot/db/bla.pragma.1.cpp"
+# 1 "C:/Users/gonso/work/hardware/VivadoTest/gonzosolution/.autopilot/db/bla.pragma.1.cpp" 1
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 153 "<built-in>" 3
@@ -202,7 +202,7 @@ extern "C" {
 #define _ssdm_op_Delayed(X) X */
 # 7 "<command line>" 2
 # 1 "<built-in>" 2
-# 1 "C:/Users/gonso/work/VivadoTest/gonzosolution/.autopilot/db/bla.pragma.1.cpp" 2
+# 1 "C:/Users/gonso/work/hardware/VivadoTest/gonzosolution/.autopilot/db/bla.pragma.1.cpp" 2
 # 1 "VivadoTest/bla.cpp"
 # 1 "VivadoTest/bla.cpp" 1
 # 1 "<built-in>" 1
@@ -408,6 +408,9 @@ extern "C" {
 # 7 "<command line>" 2
 # 1 "<built-in>" 2
 # 1 "VivadoTest/bla.cpp" 2
+# 1 "VivadoTest/bla.h" 1
+
+
 # 1 "C:/Xilinx/Vivado_HLS/2015.4/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\array" 1 3
 // <array> -*- C++ -*-
 
@@ -7216,14 +7219,15 @@ namespace std
 
 }
 # 51 "C:/Xilinx/Vivado_HLS/2015.4/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\array" 2 3
-# 2 "VivadoTest/bla.cpp" 2
-# 1 "VivadoTest/bla.h" 1
-
+# 4 "VivadoTest/bla.h" 2
 
 const int count = 8;
-# 3 "VivadoTest/bla.cpp" 2
+typedef std::array<int, count> EightInts;
 
-void gonzomain(std::array<int, 8>& output, const std::array<int, count> input) {
+void gonzomain(EightInts& output, const EightInts input );
+# 2 "VivadoTest/bla.cpp" 2
+
+void gonzomain(EightInts& output, const EightInts input) {
 
  for(int i = 0; i < count; ++i) {
   output[i] = input[i] + 3;

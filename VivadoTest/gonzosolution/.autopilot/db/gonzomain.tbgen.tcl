@@ -1,9 +1,10 @@
 set C_TypeInfoList {{ 
 "gonzomain" : [[], { "return": [[], "void"]} , [{"ExternC" : 0}], [ {"output": [[], {"reference": "0"}] }, {"input": [["const"],"1"] }],[],""], 
-"0": [ "array<int, 8>", {"struct": [[],[{"_Tp":[[], {"scalar": "int"}]},{"_Nm":[[], {"scalar": { "long long unsigned int": 8}}]}],[{ "_M_instance": [[],  {"array": ["2", [8]]}]}],"3"]}], 
-"2": [ "value_type", {"typedef": [[[], {"scalar": "int"}],"0"]}], 
-"1": [ "array<int, 8>", {"struct": [[{"pack": 0}],[{"_Tp":[[], {"scalar": "int"}]},{"_Nm":[[], {"scalar": { "long long unsigned int": 8}}]}],[{ "_M_instance": [[],  {"array": ["2", [8]]}]}],"3"]}],
-"3": ["std", ""]
+"0": [ "EightInts", {"typedef": [[[],"2"],""]}], 
+"2": [ "array<int, 8>", {"struct": [[],[{"_Tp":[[], {"scalar": "int"}]},{"_Nm":[[], {"scalar": { "long long unsigned int": 8}}]}],[{ "_M_instance": [[],  {"array": ["3", [8]]}]}],"4"]}], 
+"1": [ "EightInts", {"typedef": [[[],"2"],""]}], 
+"3": [ "value_type", {"typedef": [[[], {"scalar": "int"}],"2"]}],
+"4": ["std", ""]
 }}
 set moduleName gonzomain
 set isCombinational 0
