@@ -97,6 +97,21 @@
 							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1304911907" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 						</tool>
 					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1822777814.1273614841" name="Gonzo.cpp" rcbsApplicability="disable" resourcePath="testbench/Gonzo.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1089781501.620940684">
+						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1089781501.620940684" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1089781501">
+							<option id="gnu.cpp.compiler.option.preprocessor.def.521895820" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+							<option id="gnu.cpp.compiler.option.include.paths.2117670638" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+								<listOptionValue builtIn="false" value="C:/Users/gonso/work/hardware"/>
+								<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2015.4/include/ap_sysc"/>
+								<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2015.4/include/etc"/>
+								<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2015.4/win64/tools/auto_cc/include"/>
+								<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2015.4/win64/tools/systemc/include"/>
+								<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2015.4/include"/>
+							</option>
+							<option id="gnu.cpp.compiler.option.other.other.1467779859" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++0x -c -fmessage-length=0" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.92644366" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+						</tool>
+					</fileInfo>
 					<fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1822777814.1390802452" name="bla.cpp" rcbsApplicability="disable" resourcePath="source/bla.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1089781501.1911084276">
 						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1089781501.1911084276" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1089781501">
 							<option id="gnu.cpp.compiler.option.preprocessor.def.54507126" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
@@ -113,7 +128,7 @@
 						</tool>
 					</fileInfo>
 					<sourceEntries>
-						<entry excluding="gonzosolution|source/Gonzo.h|source/Gonzo.cpp|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="gonzosolution|source/Interface.h|source/Gonzo.h|source/Gonzo.cpp|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -203,6 +218,21 @@
 							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1404444600" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 						</tool>
 					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186013494.779730877" name="Gonzo.cpp" rcbsApplicability="disable" resourcePath="testbench/Gonzo.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.581907290.1494365830">
+						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.581907290.1494365830" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.581907290">
+							<option id="gnu.cpp.compiler.option.preprocessor.def.506645586" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+							<option id="gnu.cpp.compiler.option.include.paths.1760820540" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+								<listOptionValue builtIn="false" value="C:/Users/gonso/work/hardware"/>
+								<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2015.4/include/ap_sysc"/>
+								<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2015.4/include/etc"/>
+								<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2015.4/win64/tools/auto_cc/include"/>
+								<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2015.4/win64/tools/systemc/include"/>
+								<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2015.4/include"/>
+							</option>
+							<option id="gnu.cpp.compiler.option.other.other.787402445" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-std=c++0x -c -fmessage-length=0" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1301917907" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+						</tool>
+					</fileInfo>
 					<fileInfo id="cdt.managedbuild.config.gnu.exe.release.1186013494.2122672400" name="bla.cpp" rcbsApplicability="disable" resourcePath="source/bla.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.581907290.44314283">
 						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.581907290.44314283" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.581907290">
 							<option id="gnu.cpp.compiler.option.preprocessor.def.603404982" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
@@ -219,7 +249,7 @@
 						</tool>
 					</fileInfo>
 					<sourceEntries>
-						<entry excluding="gonzosolution|source/Gonzo.h|source/Gonzo.cpp|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="gonzosolution|source/Interface.h|source/Gonzo.h|source/Gonzo.cpp|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

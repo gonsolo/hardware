@@ -37,6 +37,11 @@
 			<location>C:/Users/gonso/work/hardware/VivadoTest/.apc/.tb</location>
 		</link>
 		<link>
+			<name>.reference/c++0x_warning.h</name>
+			<type>1</type>
+			<location>C:/Xilinx/Vivado_HLS/2015.4/win64/tools/clang/include/c++/4.5.2/bits/c++0x_warning.h</location>
+		</link>
+		<link>
 			<name>gonzosolution/constraints</name>
 			<type>2</type>
 			<location>C:/Users/gonso/work/hardware/VivadoTest/gonzosolution/.tcls</location>
@@ -52,6 +57,11 @@
 			<location>C:/Users/gonso/work/hardware/VivadoTest/Gonzo.h</location>
 		</link>
 		<link>
+			<name>source/Interface.h</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/Interface.h</location>
+		</link>
+		<link>
 			<name>source/bla.cpp</name>
 			<type>1</type>
 			<location>C:/Users/gonso/work/hardware/VivadoTest/bla.cpp</location>
@@ -65,6 +75,11 @@
 			<name>testbench/Gonzo.h</name>
 			<type>1</type>
 			<location>C:/Users/gonso/work/hardware/VivadoTest/Gonzo.h</location>
+		</link>
+		<link>
+			<name>testbench/Interface.h</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/Interface.h</location>
 		</link>
 		<link>
 			<name>testbench/testbench.cpp</name>
