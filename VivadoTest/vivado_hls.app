@@ -1,4 +1,4 @@
-<project xmlns="com.autoesl.autopilot.project" name="VivadoTest" top="gonzomain">
+<project xmlns="com.autoesl.autopilot.project" name="VivadoTest" top="testGonzo">
     <includePaths/>
     <libraryPaths/>
     <Simulation>
