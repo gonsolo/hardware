@@ -1,8 +1,13 @@
 #include "Gonzo.h"
 
+int dosomething(int input) {
+	return input + 3;
+}
+
 void Gonzo::build(Interface& interface) {
 
-	for(int i = 0; i < Interface::count; ++i) {
-		interface.output[i] = interface.input[i] + 3;
+#pragma HLS unroll
+	for(int i = 0; i < Interface::count; i +=8) {
+		interface.output[i] = dosomething(interface.input[i]);
 	}
 }
