@@ -10,6 +10,7 @@
         <file name="../Gonzo.h" sc="0" tb="1" cflags=" -std=c++0x"/>
         <file name="../Software.cpp" sc="0" tb="1" cflags=" -std=c++0x"/>
         <file name="../Software.h" sc="0" tb="1" cflags=" -std=c++0x"/>
+        <file name="../TriangleMesh.cpp" sc="0" tb="1" cflags=" -std=c++0x"/>
         <file name="../TriangleMesh.h" sc="0" tb="1" cflags=" -std=c++0x"/>
         <file name="../testbench.cpp" sc="0" tb="1" cflags=" -std=c++0x"/>
         <file name="VivadoTest/BBox.h" sc="0" tb="false" cflags=""/>
@@ -17,6 +18,7 @@
         <file name="VivadoTest/Gonzo.h" sc="0" tb="false" cflags="-std=c++0x"/>
         <file name="VivadoTest/Hardware.cpp" sc="0" tb="false" cflags="-std=c++0x"/>
         <file name="VivadoTest/Hardware.h" sc="0" tb="false" cflags="-std=c++0x"/>
+        <file name="VivadoTest/TriangleMesh.cpp" sc="0" tb="false" cflags="-std=c++0x"/>
         <file name="VivadoTest/TriangleMesh.h" sc="0" tb="false" cflags="-std=c++0x"/>
     </files>
     <solutions xmlns="">

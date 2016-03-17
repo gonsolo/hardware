@@ -19,9 +19,9 @@ bool test() {
 		Vec3fa(1.f, 1.f, 0.f),
 		Vec3fa(1.f, 1.f, 1.f)
 	};
-	std::array<TriangleMesh::Triangle, 2> triangles = {
-		TriangleMesh::Triangle(0, 1, 2),
-		TriangleMesh::Triangle(0, 1, 3)
+	std::array<Triangle, 2> triangles = {
+		Triangle(0, 1, 2),
+		Triangle(0, 1, 3)
 	};
 
 	TriangleMesh mesh(vertices, triangles);
