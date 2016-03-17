@@ -8,7 +8,7 @@ namespace gonzo {
 BBox3fa Gonzo::build(TriangleMesh mesh) {
 
 		// Compute scene bounds
-		const size_t numPrimitives = mesh.size();
+		//const size_t numPrimitives = mesh.size();
 
 		int i = 0;
 		//BBox3fa box = mesh.bounds(i);

@@ -20,8 +20,9 @@ bool test() {
 #endif
 
 	std::array<Vec3fa, 3> vertices = { Vec3fa(0.f, 0.f, 0.f), Vec3fa(1.f, 0.f, 0.f), Vec3fa(1.f, 1.f, 0.f) };
-	TriangleMesh::Triangle triangle(0, 1, 2);
-	TriangleMesh mesh(vertices, triangle);
+	//TriangleMesh::Triangle triangle(0, 1, 2);
+	//TriangleMesh mesh(vertices, triangle);
+	TriangleMesh mesh;
 
 	// Run hardware
 	BBox3fa boxHardware;

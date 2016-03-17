@@ -11,7 +11,7 @@ class type_info; // Clang bug
 namespace gonzo {
 
 	class TriangleMesh {
-
+#if 0
 	public:
 		class Triangle {
 
@@ -58,5 +58,6 @@ namespace gonzo {
 	public:
 		std::array<Triangle, 32> triangles;
 		std::array<Vec3fa, 32> vertices;
+#endif
 	};
 }
