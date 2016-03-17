@@ -21,3 +21,6 @@ v: view
 view:
 	vi VivadoTest/gonzosolution/syn/report/testGonzoHardware_csynth.rpt
 
+cosim: cosimulate
+cosimulate:
+	vivado_hls -f cosimulate.tcl

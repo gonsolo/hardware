@@ -18,9 +18,9 @@ set_part {xc7z010iclg225-1l} -tool vivado
 create_clock -period 200MHz -name default
 set_clock_uncertainty 2000MHz
 #source "./VivadoTest/gonzosolution/directives.tcl"
-csim_design
+#csim_design
 #csynth_design
-#cosim_design
+cosim_design
 #export_design -evaluate verilog -format ip_catalog -vendor "Gonzo" -library "gonzomain"
 exit
 

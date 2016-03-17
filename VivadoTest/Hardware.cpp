@@ -3,7 +3,7 @@
 #include "Gonzo.h"
 
 #if 1
-void testGonzoHardware(gonzo::BBox3fa& box, gonzo::TriangleMesh mesh) {
+void testGonzoHardware(gonzo::BBox3fa& box, const gonzo::TriangleMesh& mesh) {
 	gonzo::Gonzo gonzo;
 	box = gonzo.build(mesh);
 }

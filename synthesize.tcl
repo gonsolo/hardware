@@ -1,8 +1,3 @@
-############################################################
-## This file is generated automatically by Vivado HLS.
-## Please DO NOT edit it.
-## Copyright (C) 2015 Xilinx Inc. All rights reserved.
-############################################################
 open_project VivadoTest
 set_top testGonzoHardware
 add_files VivadoTest/TriangleMesh.h -cflags "-std=c++0x"
@@ -28,4 +23,3 @@ csynth_design
 #cosim_design
 #export_design -evaluate verilog -format ip_catalog -vendor "Gonzo" -library "gonzomain"
 exit
-

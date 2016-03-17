@@ -11,7 +11,8 @@ class type_info; // Clang bug
 namespace gonzo {
 
 	class TriangleMesh {
-#if 0
+	private:
+		static const int N = 32;
 	public:
 		class Triangle {
 
@@ -38,7 +39,8 @@ namespace gonzo {
 		}
 	public:
 		std::size_t size() const {
-			return triangles.size();
+			// Vivado bug. See further down. return triangles.size();
+			return N;
 		}
 
 		const Triangle& triangle(size_t i) const {
@@ -56,8 +58,10 @@ namespace gonzo {
 			return BBox3fa(min(v0, v1, v2), max(v0, v1, v2));
 		}
 	public:
-		std::array<Triangle, 32> triangles;
-		std::array<Vec3fa, 32> vertices;
-#endif
+		// Vivado bug!
+		//std::array<Triangle, 32> triangles;
+		//std::array<Vec3fa, 32> vertices;
+		Triangle triangles[N];
+		Vec3fa vertices[N]; 
 	};
 }

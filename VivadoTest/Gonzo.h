@@ -8,7 +8,7 @@ namespace gonzo {
 
 	class Gonzo {
 	public:
-		BBox3fa build(TriangleMesh mesh);
+		BBox3fa build(const TriangleMesh& mesh);
 	};
 }
 #else
