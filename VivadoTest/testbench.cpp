@@ -13,22 +13,27 @@ using namespace gonzo;
 
 bool test() {
 
+#if 0
+	int i;
+	int j = 13;
+	testGonzoHardware(i, j);
+#endif
 
-	//std::array<Vec3fa, 3> vertices = { Vec3fa(0.f, 0.f, 0.f), Vec3fa(1.f, 0.f, 0.f), Vec3fa(1.f, 1.f, 0.f) };
-	//TriangleMesh::Triangle triangle(0, 1, 2);
-	//TriangleMesh mesh(vertices, triangle);
-	TriangleMesh mesh;
+	std::array<Vec3fa, 3> vertices = { Vec3fa(0.f, 0.f, 0.f), Vec3fa(1.f, 0.f, 0.f), Vec3fa(1.f, 1.f, 0.f) };
+	TriangleMesh::Triangle triangle(0, 1, 2);
+	TriangleMesh mesh(vertices, triangle);
 
 	// Run hardware
-
-	//BBox3fa boxHardware;
-	//testGonzoHardware(boxHardware, mesh);
+	BBox3fa boxHardware;
+	testGonzoHardware(boxHardware, mesh);
 
 	// Run software
-	//BBox3fa boxSoftware = testGonzoSoftware(mesh);
+	BBox3fa boxSoftware = testGonzoSoftware(mesh);
+
+	cout << boxHardware << newline << boxSoftware << newline;
 
 	bool pass = true;
-	//if (boxHardware != boxSoftware) pass = false;
+	if (boxHardware != boxSoftware) pass = false;
 	cout << std::boolalpha << "pass: " << pass << newline;
 	return pass;
 }
