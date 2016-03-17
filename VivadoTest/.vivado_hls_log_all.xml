@@ -11,7 +11,10 @@
   </errorLogs>
   <warningLogs>
     <logs>
-      <synLog/>
+      <synLog>
+        <logs message="@W [SYNCHK-77] The top function 'testGonzoHardware' (VivadoTest/Hardware.cpp:5) has no outputs. Possible cause(s) are: (1) Output parameters are passed by value; (2) intended outputs (parameters or global variables) are never written; (3) there are infinite loops." projectName="VivadoTest" solutionName="gonzosolution" date="2016-03-17T14:09:39.465+0100" type="Warning"/>
+        <logs message="@W [SYNCHK-77] Found opaque type argument 'agg.result' of top function 'testGonzoHardware'. Possible causes are: (1) the argument is passed by reference; (2) the argument is never used in the function; (3) the argument is of templated class type. " projectName="VivadoTest" solutionName="gonzosolution" date="2016-03-17T14:09:39.425+0100" type="Warning"/>
+      </synLog>
       <simLog/>
       <mgLog/>
       <packageLog/>

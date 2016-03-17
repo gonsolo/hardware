@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="bla.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\bla.cpp"/>
-    <originFiles name="Interface.h" path="C:\Users\gonso\work\hardware\VivadoTest\Interface.h"/>
     <originFiles name="Gonzo.h" path="C:\Users\gonso\work\hardware\VivadoTest\Gonzo.h"/>
     <originFiles name="Gonzo.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\Gonzo.cpp"/>
+    <originFiles name="TriangleMesh.h" path="C:\Users\gonso\work\hardware\VivadoTest\TriangleMesh.h"/>
+    <originFiles name="Hardware.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\Hardware.cpp"/>
+    <originFiles name="Hardware.h" path="C:\Users\gonso\work\hardware\VivadoTest\Hardware.h"/>
+    <originFiles name="BBox.h" path="C:\Users\gonso\work\hardware\VivadoTest\BBox.h"/>
   </source>
   <testbench>
     <originFiles name="testbench.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\testbench.cpp"/>
-    <originFiles name="Interface.h" path="C:\Users\gonso\work\hardware\VivadoTest\Interface.h"/>
     <originFiles name="Gonzo.h" path="C:\Users\gonso\work\hardware\VivadoTest\Gonzo.h"/>
     <originFiles name="Gonzo.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\Gonzo.cpp"/>
+    <originFiles name="TriangleMesh.h" path="C:\Users\gonso\work\hardware\VivadoTest\TriangleMesh.h"/>
+    <originFiles name="Software.h" path="C:\Users\gonso\work\hardware\VivadoTest\Software.h"/>
+    <originFiles name="Software.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\Software.cpp"/>
+    <originFiles name="BBox.h" path="C:\Users\gonso\work\hardware\VivadoTest\BBox.h"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>

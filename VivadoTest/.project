@@ -37,9 +37,39 @@
 			<location>C:/Users/gonso/work/hardware/VivadoTest/.apc/.tb</location>
 		</link>
 		<link>
+			<name>.reference/array</name>
+			<type>1</type>
+			<location>C:/Xilinx/Vivado_HLS/2015.4/msys/lib/gcc/mingw32/4.6.2/include/c++/array</location>
+		</link>
+		<link>
+			<name>.reference/bla.h</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/bla.h</location>
+		</link>
+		<link>
+			<name>.reference/c++0x_warning.h</name>
+			<type>1</type>
+			<location>C:/Xilinx/Vivado_HLS/2015.4/win64/tools/clang/include/c++/4.5.2/bits/c++0x_warning.h</location>
+		</link>
+		<link>
+			<name>.reference/exception_ptr.h</name>
+			<type>1</type>
+			<location>C:/Xilinx/Vivado_HLS/2015.4/win64/tools/clang/include/c++/4.5.2/exception_ptr.h</location>
+		</link>
+		<link>
+			<name>.reference/nested_exception.h</name>
+			<type>1</type>
+			<location>C:/Xilinx/Vivado_HLS/2015.4/win64/tools/clang/include/c++/4.5.2/nested_exception.h</location>
+		</link>
+		<link>
 			<name>gonzosolution/constraints</name>
 			<type>2</type>
 			<location>C:/Users/gonso/work/hardware/VivadoTest/gonzosolution/.tcls</location>
+		</link>
+		<link>
+			<name>source/BBox.h</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/BBox.h</location>
 		</link>
 		<link>
 			<name>source/Gonzo.cpp</name>
@@ -52,14 +82,24 @@
 			<location>C:/Users/gonso/work/hardware/VivadoTest/Gonzo.h</location>
 		</link>
 		<link>
-			<name>source/Interface.h</name>
+			<name>source/Hardware.cpp</name>
 			<type>1</type>
-			<location>C:/Users/gonso/work/hardware/VivadoTest/Interface.h</location>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/Hardware.cpp</location>
 		</link>
 		<link>
-			<name>source/bla.cpp</name>
+			<name>source/Hardware.h</name>
 			<type>1</type>
-			<location>C:/Users/gonso/work/hardware/VivadoTest/bla.cpp</location>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/Hardware.h</location>
+		</link>
+		<link>
+			<name>source/TriangleMesh.h</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/TriangleMesh.h</location>
+		</link>
+		<link>
+			<name>testbench/BBox.h</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/BBox.h</location>
 		</link>
 		<link>
 			<name>testbench/Gonzo.cpp</name>
@@ -72,9 +112,19 @@
 			<location>C:/Users/gonso/work/hardware/VivadoTest/Gonzo.h</location>
 		</link>
 		<link>
-			<name>testbench/Interface.h</name>
+			<name>testbench/Software.cpp</name>
 			<type>1</type>
-			<location>C:/Users/gonso/work/hardware/VivadoTest/Interface.h</location>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/Software.cpp</location>
+		</link>
+		<link>
+			<name>testbench/Software.h</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/Software.h</location>
+		</link>
+		<link>
+			<name>testbench/TriangleMesh.h</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/TriangleMesh.h</location>
 		</link>
 		<link>
 			<name>testbench/testbench.cpp</name>

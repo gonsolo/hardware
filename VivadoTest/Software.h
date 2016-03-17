@@ -3,7 +3,4 @@
 #include "BBox.h"
 #include "TriangleMesh.h"
 
-class Gonzo {
-public:
-	BBox build(TriangleMesh mesh);
-};
+BBox testGonzoSoftware(TriangleMesh mesh);
