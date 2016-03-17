@@ -1,8 +1,8 @@
 <project xmlns="com.autoesl.autopilot.project" name="VivadoTest" top="testGonzoHardware">
     <includePaths/>
     <libraryPaths/>
-    <Simulation>
-        <SimFlow askAgain="false" name="csim" csimMode="0" lastCsimMode="0"/>
+    <Simulation argv="">
+        <SimFlow askAgain="false" name="csim" csimMode="0" lastCsimMode="0" setup="false" optimizeCompile="false" clean="false" ldflags="" mflags=""/>
     </Simulation>
     <files xmlns="">
         <file name="../BBox.h" sc="0" tb="1" cflags=" "/>
