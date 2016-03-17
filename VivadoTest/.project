@@ -37,31 +37,6 @@
 			<location>C:/Users/gonso/work/hardware/VivadoTest/.apc/.tb</location>
 		</link>
 		<link>
-			<name>.reference/array</name>
-			<type>1</type>
-			<location>C:/Xilinx/Vivado_HLS/2015.4/msys/lib/gcc/mingw32/4.6.2/include/c++/array</location>
-		</link>
-		<link>
-			<name>.reference/bla.h</name>
-			<type>1</type>
-			<location>C:/Users/gonso/work/hardware/VivadoTest/bla.h</location>
-		</link>
-		<link>
-			<name>.reference/c++0x_warning.h</name>
-			<type>1</type>
-			<location>C:/Xilinx/Vivado_HLS/2015.4/win64/tools/clang/include/c++/4.5.2/bits/c++0x_warning.h</location>
-		</link>
-		<link>
-			<name>.reference/exception_ptr.h</name>
-			<type>1</type>
-			<location>C:/Xilinx/Vivado_HLS/2015.4/win64/tools/clang/include/c++/4.5.2/exception_ptr.h</location>
-		</link>
-		<link>
-			<name>.reference/nested_exception.h</name>
-			<type>1</type>
-			<location>C:/Xilinx/Vivado_HLS/2015.4/win64/tools/clang/include/c++/4.5.2/nested_exception.h</location>
-		</link>
-		<link>
 			<name>gonzosolution/constraints</name>
 			<type>2</type>
 			<location>C:/Users/gonso/work/hardware/VivadoTest/gonzosolution/.tcls</location>

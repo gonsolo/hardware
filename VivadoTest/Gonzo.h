@@ -1,9 +1,13 @@
 #pragma once
 
-#include "BBox.h"
-#include "TriangleMesh.h"
+//#include "BBox.h"
+//#include "TriangleMesh.h"
 
-class Gonzo {
-public:
-	BBox build(TriangleMesh mesh);
-};
+namespace gonzo {
+
+	class Gonzo {
+	public:
+		//BBox3fa build(TriangleMesh mesh);
+		int build(int i);
+	};
+}

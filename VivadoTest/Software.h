@@ -3,4 +3,5 @@
 #include "BBox.h"
 #include "TriangleMesh.h"
 
-BBox testGonzoSoftware(TriangleMesh mesh);
+gonzo::BBox3fa testGonzoSoftware(gonzo::TriangleMesh mesh);
+
