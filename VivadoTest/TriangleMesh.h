@@ -31,16 +31,19 @@ namespace gonzo {
 
 	public:
 		TriangleMesh() {}
-		TriangleMesh(const std::array<Vec3fa, 3>& v, const Triangle& triangle) {
+		TriangleMesh(const std::array<Vec3fa, 4>& v, const std::array<Triangle, 2>& t) {
 			vertices[0] = v[0];
 			vertices[1] = v[1];
 			vertices[2] = v[2];
-			triangles[0] = triangle;
+			vertices[3] = v[3];
+			triangles[0] = t[0];
+			triangles[1] = t[1];
+			numTriangles = 2;
 		}
 	public:
 		std::size_t size() const {
 			// Vivado bug. See further down. return triangles.size();
-			return N;
+			return numTriangles;
 		}
 
 		const Triangle& triangle(size_t i) const {
@@ -61,6 +64,7 @@ namespace gonzo {
 		// Vivado bug!
 		//std::array<Triangle, 32> triangles;
 		//std::array<Vec3fa, 32> vertices;
+		int numTriangles;
 		Triangle triangles[N];
 		Vec3fa vertices[N]; 
 	};

@@ -13,6 +13,8 @@ namespace gonzo {
 	public:
 		BBox() {}
 		BBox(const T& lower, const T& upper) : lower(lower), upper(upper) {}
+	public:
+		const BBox& extend(const BBox& other) { lower = min(lower, other.lower); upper = max(upper, other.upper); return *this; }
 	};
 
 	template<typename T> std::ostream& operator<<(std::ostream& out, const BBox<T>& box) {

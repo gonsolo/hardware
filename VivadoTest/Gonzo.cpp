@@ -7,11 +7,12 @@ namespace gonzo {
 BBox3fa Gonzo::build(const TriangleMesh& mesh) {
 
 		// Compute scene bounds
-		//const size_t numPrimitives = mesh.size();
+		const size_t numPrimitives = mesh.size();
 
-		int i = 0;
-		BBox3fa box = mesh.bounds(i);
-		//BBox3fa box;
+		BBox3fa box;
+		for (size_t i = 0; i < numPrimitives; ++i) {
+			box.extend(mesh.bounds(i));
+		}
 		return box;
 	}
 }
