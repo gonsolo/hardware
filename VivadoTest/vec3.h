@@ -22,8 +22,7 @@ namespace gonzo {
 	template<typename T> bool operator!=(const Vec3<T> a, const Vec3<T> b) { return a.x != b.x || a.y != b.y || a.z != b.z; }
 
 	typedef Vec3<float> Vec3fa;
-#endif
-
+#else
 	class Vec3fa {
 	public:
 		float x, y, z;
@@ -39,4 +38,5 @@ namespace gonzo {
 		return out << "(" << a.x << ", " << a.y << ", " << a.z << ")";
 	}
 	inline bool operator!=(const Vec3fa a, const Vec3fa b) { return a.x != b.x || a.y != b.y || a.z != b.z; }
+#endif
 }

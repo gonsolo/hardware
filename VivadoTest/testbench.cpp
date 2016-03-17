@@ -13,12 +13,6 @@ using namespace gonzo;
 
 bool test() {
 
-#if 0
-	int i;
-	int j = 13;
-	testGonzoHardware(i, j);
-#endif
-
 	std::array<Vec3fa, 3> vertices = { Vec3fa(0.f, 0.f, 0.f), Vec3fa(1.f, 0.f, 0.f), Vec3fa(1.f, 1.f, 0.f) };
 	TriangleMesh::Triangle triangle(0, 1, 2);
 	TriangleMesh mesh(vertices, triangle);
