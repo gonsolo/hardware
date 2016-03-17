@@ -1,5 +1,5 @@
 
-all: simr
+all: sim
 
 sim: simulate
 simulate:
@@ -7,8 +7,9 @@ simulate:
 
 simr: simulate_report
 simulate_report: simulate
-	cat VivadoTest/gonzosolution/csim/report/gonzomain_csim.log
+	cat VivadoTest/gonzosolution/csim/report/testGonzoHardware_csim.log
 
+s: synthesize
 syn: synthesize
 synthesize:
 	vivado_hls -f synthesize.tcl
@@ -21,6 +22,7 @@ v: view
 view:
 	vi VivadoTest/gonzosolution/syn/report/testGonzoHardware_csynth.rpt
 
+c: cosimulate
 cosim: cosimulate
 cosimulate:
 	vivado_hls -f cosimulate.tcl
