@@ -27,10 +27,10 @@ bool test() {
 	triangles[0] = Triangle(0, 1, 2);
 	triangles[1] = Triangle(0, 1, 3);
 	uint64_t numTriangles = 2;
-	testGonzoHardware(triangles, numTriangles, vertices, boxHW);
-	float f = vertices[0].x;
 
-	testGonzoSoftware(triangles, 2, vertices, boxSW);
+	testGonzoHardware(triangles, numTriangles, vertices, boxHW);
+
+	testGonzoSoftware(triangles, numTriangles, vertices, boxSW);
 
 	cout << boxHW	<< " == " << boxSW << " ?" << newline;
 	bool pass = true;
