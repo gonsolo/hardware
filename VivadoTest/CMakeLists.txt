@@ -7,6 +7,6 @@ add_executable(vivado
 	Hardware.h Hardware.cpp
 	Interface.h Interface.cpp
 #	Software.h Software.cpp
-#	TriangleMesh.h TriangleMesh.cpp
+	TriangleMesh.h TriangleMesh.cpp
 )
 

@@ -48,4 +48,7 @@ namespace gonzo {
 		static Triangle triangles[2];
 		static Vec3fa vertices[4]; 
 	};
+
+	const int maxTriangles = 1024 * 1024;
+	typedef Triangle TriangleArray[gonzo::maxTriangles];
 }

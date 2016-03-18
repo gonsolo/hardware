@@ -39,4 +39,6 @@ namespace gonzo {
 	}
 	inline bool operator!=(const Vec3fa a, const Vec3fa b) { return a.x != b.x || a.y != b.y || a.z != b.z; }
 #endif
+	const int maxVertices = 1024 * 1024;
+	typedef Vec3fa VertexArray[gonzo::maxVertices];
 }

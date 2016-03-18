@@ -6,6 +6,8 @@
 
 namespace gonzo {
 
+	int Interface::x[1024 * 1024];
+
 #if 0
 	BBox3fa Interface::boxHW;
 	BBox3fa Interface::boxSW;

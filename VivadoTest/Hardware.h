@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Interface.h"
+#include "TriangleMesh.h"
+#include "vec3.h"
 
-//void testGonzoHardware(gonzo::Interface& interface);
-void testGonzoHardware(int x[1024 * 1024]);
+void testGonzoHardware(gonzo::TriangleArray triangles, gonzo::VertexArray vertices, gonzo::BBox3fa& box);

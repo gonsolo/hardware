@@ -4,6 +4,7 @@
 #include "Hardware.h"
 #include "Interface.h"
 #include "Software.h"
+#include "TriangleMesh.h"
 
 using std::cout;
 const char newline = '\n';
@@ -11,7 +12,9 @@ const char space = ' ';
 
 using namespace gonzo;
 
-int x[1024 * 1024];
+TriangleArray triangles;
+VertexArray vertices;
+BBox3fa box;
 
 bool test() {
 
@@ -31,9 +34,9 @@ bool test() {
 
 	interface.mesh = TriangleMesh(vertices, triangles);
 #endif
-	x[0] = 13;
-	testGonzoHardware(x);
-	int i = x[0];
+	vertices[0] = Vec3fa(13.f, 13.f, 13.f);
+	testGonzoHardware(triangles, vertices, box);
+	float f = vertices[0].x;
 #if 0
 	// Run software
 	testGonzoSoftware(interface);
@@ -42,8 +45,8 @@ bool test() {
 #endif
 	bool pass = true;
 	//if (interface.boxSW != interface.boxHW) pass = false;
-	cout << "i: " << i << newline;
-	if (i != 169) pass = false;
+	cout << "f: " << f << newline;
+	if (f != 169.f) pass = false;
 	cout << std::boolalpha << "pass: " << pass << newline;
 	return pass;
 }

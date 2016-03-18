@@ -2,12 +2,12 @@
 #include "Hardware.h"
 #include "Gonzo.h"
 #include "Interface.h"
+#include "TriangleMesh.h"
 
-//void testGonzoHardware(gonzo::Interface& interface) {
-void testGonzoHardware(int x[1024 * 1024]) {
+void testGonzoHardware(gonzo::TriangleArray triangles, gonzo::VertexArray vertices, gonzo::BBox3fa& box) {
 #if 0
 	gonzo::Gonzo gonzo;
 	gonzo.build(interface.boxHW, interface.mesh);
 #endif
-	x[0] = x[0] * x[0];
+	vertices[0].x = vertices[0].x * vertices[0].x;
 }
