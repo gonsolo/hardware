@@ -2,8 +2,8 @@
 #include "Software.h"
 #include "Gonzo.h"
 
-void testGonzoSoftware(gonzo::Interface& interface) {
+void testGonzoSoftware(gonzo::TriangleArray triangles, int numTriangles, gonzo::VertexArray vertices, gonzo::BBox3fa& box) {
 
-	//gonzo::Gonzo gonzo;
-	//gonzo.build(interface.boxSW, interface.mesh);
+	gonzo::Gonzo gonzo;
+	gonzo.build(triangles, numTriangles, vertices, box);
 }

@@ -28,6 +28,13 @@ namespace gonzo {
 		return *this;
 	}
 
+	BBox3fa Triangle::bounds(VertexArray vertices) const {
+		const Vec3fa v0 = vertices[v[0]];
+		const Vec3fa v1 = vertices[v[1]];
+		const Vec3fa v2 = vertices[v[2]];
+		return BBox3fa(min(v0, v1, v2), max(v0, v1, v2));
+	}
+		
 	TriangleMesh::TriangleMesh(const std::array<Vec3fa, 4>& v, const std::array<Triangle, 2>& t) {
 		vertices[0] = v[0];
 		vertices[1] = v[1];
@@ -52,7 +59,6 @@ namespace gonzo {
 	}
 
 	BBox3fa TriangleMesh::bounds(std::size_t i) const {
-		//const Triangle& tri = triangle(i);
 		const Triangle tri = triangle(i);
 		const Vec3fa v0 = vertex(tri.v[0]);
 		const Vec3fa v1 = vertex(tri.v[1]);

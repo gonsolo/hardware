@@ -4,13 +4,11 @@
 
 namespace gonzo {
 
-void Gonzo::build(BBox3fa& box, const TriangleMesh& mesh) {
+void Gonzo::build(TriangleArray triangles, uint64_t numTriangles, VertexArray vertices, BBox3fa& box) {
 
 		// Compute scene bounds
-		const size_t numPrimitives = mesh.size();
-
-		for (size_t i = 0; i < numPrimitives; ++i) {
-			box.extend(mesh.bounds(i));
+		for (uint64_t i = 0; i < numTriangles; ++i) {
+			box.extend(triangles[i].bounds(vertices));
 		}
 	}
 }

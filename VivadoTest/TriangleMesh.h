@@ -22,6 +22,10 @@ namespace gonzo {
 
 	public:
 
+		BBox3fa bounds(VertexArray vertices) const;
+
+	public:
+
 		const Triangle& operator=(const Triangle& other);
 
 	public:

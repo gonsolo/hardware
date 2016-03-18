@@ -6,10 +6,8 @@
 
 
 
-void testGonzoHardware(gonzo::TriangleArray triangles, gonzo::VertexArray vertices, gonzo::BBox3fa& box) {
-#if 0
+void testGonzoHardware(gonzo::TriangleArray triangles, uint64_t numTriangles, gonzo::VertexArray vertices, gonzo::BBox3fa& box) {
+
 	gonzo::Gonzo gonzo;
-	gonzo.build(interface.boxHW, interface.mesh);
-#endif
-	vertices[0].x = vertices[0].x * vertices[0].x;
+	gonzo.build(triangles, numTriangles, vertices, box);
 }
