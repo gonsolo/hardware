@@ -4,6 +4,8 @@
 #include "Interface.h"
 #include "TriangleMesh.h"
 
+
+
 void testGonzoHardware(gonzo::TriangleArray triangles, gonzo::VertexArray vertices, gonzo::BBox3fa& box) {
 #if 0
 	gonzo::Gonzo gonzo;

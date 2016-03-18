@@ -38,8 +38,7 @@ namespace gonzo {
 	public:
 
 		std::size_t size() const;
-		//const Triangle& triangle(size_t i) const;
-		Triangle triangle(size_t i) const;
+		const Triangle& triangle(size_t i) const;
 		const Vec3fa vertex(size_t i) const;
 		BBox3fa bounds(std::size_t i) const;
 	

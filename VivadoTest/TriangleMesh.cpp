@@ -43,8 +43,7 @@ namespace gonzo {
 		return numTriangles;
 	}
 
-	//const Triangle& TriangleMesh::triangle(size_t i) const {
-	Triangle TriangleMesh::triangle(size_t i) const {
+	const Triangle& TriangleMesh::triangle(size_t i) const {
 		return triangles[i];
 	}
 
