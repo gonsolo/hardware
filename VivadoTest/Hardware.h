@@ -1,7 +1,6 @@
 #pragma once
 
-#include "BBox.h"
-#include "TriangleMesh.h"
+#include "Interface.h"
 
-void testGonzoHardware(gonzo::BBox3fa& box, const gonzo::TriangleMesh& mesh);
-//void testGonzoHardware(int& i, int j);
+//void testGonzoHardware(gonzo::Interface& interface);
+void testGonzoHardware(int x[1024 * 1024]);

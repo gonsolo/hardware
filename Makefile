@@ -24,5 +24,5 @@ view:
 
 c: cosimulate
 cosim: cosimulate
-cosimulate:
+cosimulate: synthesize
 	vivado_hls -f cosimulate.tcl

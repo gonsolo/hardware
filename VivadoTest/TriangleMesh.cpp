@@ -1,12 +1,31 @@
 #include "TriangleMesh.h"
 
-namespace gonzo {
 
+namespace gonzo {
 
 	Triangle::Triangle(uint32_t v0, uint32_t v1, uint32_t v2) {
 		v[0] = v0;
 		v[1] = v1;
 		v[2] = v2;
+	}
+
+	Triangle::Triangle(const Triangle& other) {
+		v[0] = other.v[0];
+		v[1] = other.v[1];
+		v[2] = other.v[2];
+	}
+
+	Triangle::Triangle(const Triangle&& other) {
+		v[0] = other.v[0];
+		v[1] = other.v[1];
+		v[2] = other.v[2];
+	}
+
+	const Triangle& Triangle::operator=(const Triangle& other) {
+		v[0] = other.v[0];
+		v[1] = other.v[1];
+		v[2] = other.v[2];
+		return *this;
 	}
 
 	TriangleMesh::TriangleMesh(const std::array<Vec3fa, 4>& v, const std::array<Triangle, 2>& t) {
@@ -19,11 +38,13 @@ namespace gonzo {
 		numTriangles = 2;
 	}
 
+
 	std::size_t TriangleMesh::size() const {
 		return numTriangles;
 	}
 
-	const Triangle& TriangleMesh::triangle(size_t i) const {
+	//const Triangle& TriangleMesh::triangle(size_t i) const {
+	Triangle TriangleMesh::triangle(size_t i) const {
 		return triangles[i];
 	}
 
@@ -32,11 +53,15 @@ namespace gonzo {
 	}
 
 	BBox3fa TriangleMesh::bounds(std::size_t i) const {
-		const Triangle& tri = triangle(i);
+		//const Triangle& tri = triangle(i);
+		const Triangle tri = triangle(i);
 		const Vec3fa v0 = vertex(tri.v[0]);
 		const Vec3fa v1 = vertex(tri.v[1]);
 		const Vec3fa v2 = vertex(tri.v[2]);
 		return BBox3fa(min(v0, v1, v2), max(v0, v1, v2));
 	}
 	
+	int TriangleMesh::numTriangles;
+	Triangle TriangleMesh::triangles[2];
+	Vec3fa TriangleMesh::vertices[4]; 
 }

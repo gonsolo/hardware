@@ -1,4 +1,12 @@
 
 project(Vivado)
-add_executable(vivado testbench.cpp BBox.h Hardware.h Hardware.cpp Software.h Software.cpp Gonzo.h Gonzo.cpp TriangleMesh.h TriangleMesh.cpp)
+add_executable(vivado
+	testbench.cpp
+#	BBox.h
+#	Gonzo.h Gonzo.cpp
+	Hardware.h Hardware.cpp
+	Interface.h Interface.cpp
+#	Software.h Software.cpp
+#	TriangleMesh.h TriangleMesh.cpp
+)
 

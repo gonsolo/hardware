@@ -67,6 +67,11 @@
 			<location>C:/Users/gonso/work/hardware/VivadoTest/Hardware.h</location>
 		</link>
 		<link>
+			<name>source/TriangleMesh.cpp</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/TriangleMesh.cpp</location>
+		</link>
+		<link>
 			<name>source/TriangleMesh.h</name>
 			<type>1</type>
 			<location>C:/Users/gonso/work/hardware/VivadoTest/TriangleMesh.h</location>
@@ -95,6 +100,11 @@
 			<name>testbench/Software.h</name>
 			<type>1</type>
 			<location>C:/Users/gonso/work/hardware/VivadoTest/Software.h</location>
+		</link>
+		<link>
+			<name>testbench/TriangleMesh.cpp</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/TriangleMesh.cpp</location>
 		</link>
 		<link>
 			<name>testbench/TriangleMesh.h</name>

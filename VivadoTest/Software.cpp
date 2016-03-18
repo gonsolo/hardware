@@ -2,8 +2,8 @@
 #include "Software.h"
 #include "Gonzo.h"
 
-gonzo::BBox3fa testGonzoSoftware(gonzo::TriangleMesh mesh) {
-	gonzo::Gonzo gonzo;
-	gonzo::BBox3fa box = gonzo.build(mesh);
-	return box;
+void testGonzoSoftware(gonzo::Interface& interface) {
+
+	//gonzo::Gonzo gonzo;
+	//gonzo.build(interface.boxSW, interface.mesh);
 }

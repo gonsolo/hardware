@@ -13,9 +13,16 @@ namespace gonzo {
 	class Triangle {
 
 	public:
+
 		Triangle() {}
 		Triangle(uint32_t v0, uint32_t v1, uint32_t v2);
+		Triangle(const Triangle& other);
+		Triangle(const Triangle&& other);
 		~Triangle() {}
+
+	public:
+
+		const Triangle& operator=(const Triangle& other);
 
 	public:
 		std::uint32_t v[3];
@@ -31,17 +38,14 @@ namespace gonzo {
 	public:
 
 		std::size_t size() const;
-
-		const Triangle& triangle(size_t i) const;
-
+		//const Triangle& triangle(size_t i) const;
+		Triangle triangle(size_t i) const;
 		const Vec3fa vertex(size_t i) const;
-
 		BBox3fa bounds(std::size_t i) const;
 	
 	public:
-		int numTriangles;
-		static const int N = 32;
-		Triangle triangles[N];
-		Vec3fa vertices[N]; 
+		static int numTriangles;
+		static Triangle triangles[2];
+		static Vec3fa vertices[4]; 
 	};
 }
