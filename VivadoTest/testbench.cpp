@@ -14,28 +14,20 @@ using namespace gonzo;
 
 TriangleArray triangles;
 VertexArray vertices;
-BBox3fa box;
+BBox3fa boxHW;
+BBox3fa boxSW;
 
 bool test() {
 
-#if 0
-	Interface interface;
-	interface.x[0][0] = 13;
-	std::array<Vec3fa, 4> vertices = {
-		Vec3fa(0.f, 0.f, 0.f),
-		Vec3fa(1.f, 0.f, 0.f),
-		Vec3fa(1.f, 1.f, 0.f),
-		Vec3fa(1.f, 1.f, 1.f)
-	};
-	std::array<Triangle, 2> triangles = {
-		Triangle(0, 1, 2),
-		Triangle(0, 1, 3)
-	};
+	vertices[0] = Vec3fa(13.f, 0.f, 0.f);
+	vertices[1] = Vec3fa(1.f, 0.f, 0.f);
+	vertices[2] = Vec3fa(1.f, 1.f, 0.f);
+	vertices[3] = Vec3fa(1.f, 1.f, 1.f);
 
-	interface.mesh = TriangleMesh(vertices, triangles);
-#endif
-	vertices[0] = Vec3fa(13.f, 13.f, 13.f);
-	testGonzoHardware(triangles, vertices, box);
+	triangles[0] = Triangle(0, 1, 2);
+	triangles[0] = Triangle(0, 1, 3);
+
+	testGonzoHardware(triangles, vertices, boxHW);
 	float f = vertices[0].x;
 #if 0
 	// Run software
