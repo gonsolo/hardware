@@ -1,5 +1,15 @@
+cmake_minimum_required(VERSION 3.2)
 
 project(Vivado)
+
+set(CXX_STANDARD "c++14")
+if(CMAKE_COMPILER_IS_GNUCXX)
+	add_definitions(-std=${CXX_STANDARD})
+endif()
+if(CMAKE_GENERATOR STREQUAL Xcode)
+    set(CMAKE_XCODE_ATTRIBUTE_CLANG_CXX_LANGUAGE_STANDARD ${CXX_STANDARD})
+endif()
+
 add_executable(vivado
 	testbench.cpp
 	BBox.h
