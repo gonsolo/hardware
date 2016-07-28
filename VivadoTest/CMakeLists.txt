@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.2)
+cmake_minimum_required(VERSION 3.6)
 
-project(Vivado)
+project(Gonzo)
 
 set(CXX_STANDARD "c++14")
 if(CMAKE_COMPILER_IS_GNUCXX)
@@ -10,7 +10,7 @@ if(CMAKE_GENERATOR STREQUAL Xcode)
     set(CMAKE_XCODE_ATTRIBUTE_CLANG_CXX_LANGUAGE_STANDARD ${CXX_STANDARD})
 endif()
 
-add_executable(vivado
+add_executable(testgonzo
 	testbench.cpp
 	BBox.h
 	Gonzo.h Gonzo.cpp
@@ -20,3 +20,4 @@ add_executable(vivado
 	TriangleMesh.h TriangleMesh.cpp
 )
 
+set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT testgonzo)
