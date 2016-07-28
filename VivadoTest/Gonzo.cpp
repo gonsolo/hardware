@@ -10,6 +10,9 @@ void Gonzo::build(TriangleArray triangles, uint64_t numTriangles, VertexArray ve
 		for (uint64_t i = 0; i < numTriangles; ++i) {
 			box.extend(triangles[i].bounds(vertices));
 		}
+
+		// Compute morton codes
+
 	}
 }
 
