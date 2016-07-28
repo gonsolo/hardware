@@ -4,6 +4,8 @@
     <originFiles name="BBox.h" path="C:\Users\gonso\work\hardware\VivadoTest\BBox.h"/>
     <originFiles name="Gonzo.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\Gonzo.cpp"/>
     <originFiles name="Gonzo.h" path="C:\Users\gonso\work\hardware\VivadoTest\Gonzo.h"/>
+    <originFiles name="Interface.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\Interface.cpp"/>
+    <originFiles name="Interface.h" path="C:\Users\gonso\work\hardware\VivadoTest\Interface.h"/>
     <originFiles name="Hardware.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\Hardware.cpp"/>
     <originFiles name="Hardware.h" path="C:\Users\gonso\work\hardware\VivadoTest\Hardware.h"/>
     <originFiles name="TriangleMesh.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\TriangleMesh.cpp"/>
@@ -11,6 +13,8 @@
   </source>
   <testbench>
     <originFiles name="BBox.h" path="C:\Users\gonso\work\hardware\VivadoTest\BBox.h"/>
+    <originFiles name="Interface.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\Interface.cpp"/>
+    <originFiles name="Interface.h" path="C:\Users\gonso\work\hardware\VivadoTest\Interface.h"/>
     <originFiles name="Gonzo.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\Gonzo.cpp"/>
     <originFiles name="Gonzo.h" path="C:\Users\gonso\work\hardware\VivadoTest\Gonzo.h"/>
     <originFiles name="Software.cpp" path="C:\Users\gonso\work\hardware\VivadoTest\Software.cpp"/>

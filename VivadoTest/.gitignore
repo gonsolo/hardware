@@ -1,11 +1,7 @@
 build
 gonzosolution
 
-vivado_hls.app
 
-.DS_Store
-.apc
-.cproject
-.project
 .vivado_hls_log_all.xml
+.DS_Store
 

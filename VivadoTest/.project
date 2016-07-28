@@ -67,6 +67,16 @@
 			<location>C:/Users/gonso/work/hardware/VivadoTest/Hardware.h</location>
 		</link>
 		<link>
+			<name>source/Interface.cpp</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/Interface.cpp</location>
+		</link>
+		<link>
+			<name>source/Interface.h</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/Interface.h</location>
+		</link>
+		<link>
 			<name>source/TriangleMesh.cpp</name>
 			<type>1</type>
 			<location>C:/Users/gonso/work/hardware/VivadoTest/TriangleMesh.cpp</location>
@@ -90,6 +100,16 @@
 			<name>testbench/Gonzo.h</name>
 			<type>1</type>
 			<location>C:/Users/gonso/work/hardware/VivadoTest/Gonzo.h</location>
+		</link>
+		<link>
+			<name>testbench/Interface.cpp</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/Interface.cpp</location>
+		</link>
+		<link>
+			<name>testbench/Interface.h</name>
+			<type>1</type>
+			<location>C:/Users/gonso/work/hardware/VivadoTest/Interface.h</location>
 		</link>
 		<link>
 			<name>testbench/Software.cpp</name>

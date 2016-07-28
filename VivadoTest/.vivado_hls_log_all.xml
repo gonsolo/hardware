@@ -11,7 +11,9 @@
   </errorLogs>
   <warningLogs>
     <logs>
-      <synLog/>
+      <synLog>
+        <logs message="@W [XFORM-631] Renaming function 'gonzo::Gonzo::build' (VivadoTest/Gonzo.cpp:7) into build." projectName="VivadoTest" solutionName="gonzosolution" date="2016-07-28T16:02:48.167+0200" type="Warning"/>
+      </synLog>
       <simLog/>
       <mgLog/>
       <packageLog/>
