@@ -1,3 +1,4 @@
 build
 gonzosolution
 .vivado_hls_log_all.xml
+.DS_Store
