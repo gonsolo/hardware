@@ -27,11 +27,15 @@ bool test() {
 	triangles[1] = Triangle(0, 1, 3);
 	uint64_t numTriangles = 2;
 
+	cout << "Testing Hardware:" << newline;
 	testGonzoHardware(numTriangles, triangles, numVertices, vertices, boxHW);
-	//float f = vertices[0].x;
+	cout << newline;
 
+	cout << "Testing Software:" << newline;
 	testGonzoSoftware(numTriangles, triangles, numVertices, vertices, boxSW);
+	cout << newline;
 
+	cout << "Matching Hardware and Software:" << newline;
 	cout << boxHW	<< " == " << boxSW << " ?" << newline;
 	bool pass = true;
 	if (boxSW != boxHW) pass = false;
