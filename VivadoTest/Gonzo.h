@@ -7,6 +7,6 @@ namespace gonzo {
 
 	class Gonzo {
 	public:
-		void build(TriangleArray triangles, uint64_t numTriangles, VertexArray vertices, BBox3fa& box);
+		void build(uint64_t numTriangles, TriangleArray triangles, uint64_t numVertices, VertexArray vertices, BBox3fa& box);
 	};
 }
