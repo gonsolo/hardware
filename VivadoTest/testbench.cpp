@@ -8,7 +8,7 @@
 
 using std::cout;
 const char newline = '\n';
-const char space = ' ';
+//const char space = ' ';
 
 using namespace gonzo;
 
@@ -28,7 +28,7 @@ bool test() {
 	triangles[1] = Triangle(0, 1, 3);
 	uint64_t numTriangles = 2;
 	testGonzoHardware(triangles, numTriangles, vertices, boxHW);
-	float f = vertices[0].x;
+	//float f = vertices[0].x;
 
 	testGonzoSoftware(triangles, 2, vertices, boxSW);
 
