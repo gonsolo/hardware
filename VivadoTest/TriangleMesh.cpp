@@ -34,6 +34,13 @@ namespace gonzo {
 		const Vec3fa v2 = vertices[v[2]];
 		return BBox3fa(min(v0, v1, v2), max(v0, v1, v2));
 	}
+
+	Vec3fa Triangle::center(VertexArray vertices) const {
+		const Vec3fa v0 = vertices[v[0]];
+		const Vec3fa v1 = vertices[v[1]];
+		const Vec3fa v2 = vertices[v[2]];
+		return (v0 + v1 + v2) / 3.f;
+	}
 		
 	TriangleMesh::TriangleMesh(const std::array<Vec3fa, 4>& v, const std::array<Triangle, 2>& t) {
 		vertices[0] = v[0];

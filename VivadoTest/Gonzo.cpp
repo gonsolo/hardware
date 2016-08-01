@@ -17,6 +17,11 @@ void Gonzo::build(uint64_t numTriangles, TriangleArray triangles, uint64_t numVe
 		// Compute morton codes
 		cout << "Triangles: " << numTriangles << newline;
 		cout << "Vertices:  " << numVertices << newline;
+		
+		for (int i = 0; i < numTriangles; ++i) {
+			Vec3fa center = triangles[i].center(vertices);
+			cout << "Center: " << center << newline;
+		}
 	}
 }
 

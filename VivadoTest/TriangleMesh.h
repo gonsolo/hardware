@@ -23,6 +23,7 @@ namespace gonzo {
 	public:
 
 		BBox3fa bounds(VertexArray vertices) const;
+		Vec3fa center(VertexArray vertices) const;
 
 	public:
 
